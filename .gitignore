@@ -1,0 +1,23 @@
+@"
+# Dataset files
+*.csv
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Saved model files
+*.pkl
+*.joblib
+
+# Secrets
+.env
+"@ | Set-Content .gitignore
